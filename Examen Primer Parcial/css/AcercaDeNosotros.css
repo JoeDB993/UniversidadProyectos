@@ -1,0 +1,50 @@
+.text-form{
+    font-size: 1.4em;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 5%;
+    margin-top: 100px;
+}
+.form-contactanos{
+    padding: 5%;   
+       
+}
+
+#title5{
+    text-align: left !important;
+}
+#imagecontact{
+    margin-top: -1px;
+    height: 90vh;
+    width: auto;
+}
+
+#tarjeta-acercade{
+    height: 12vh;
+    width: 50vh;
+}
+#tarjeta-de-acerca{
+    width: autovh;
+    margin-left: 5rem;
+    margin-right: 5rem;
+
+}
+
+
+@media (max-width:450px){
+    #imagecontact{
+        height: 37vh;
+        width: auto;
+    }
+}
+@media (max-width:450px){
+    #tarjeta-de-acerca{
+        height: 20vh;
+        width: auto;
+        margin-bottom: 15rem;
+        margin-left: 0;
+        margin-right: 0;
+    }
+}
+
+
