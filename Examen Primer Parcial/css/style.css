@@ -1,0 +1,151 @@
+*{
+    margin: 0;
+    padding: 0;
+navbar{
+    background-color: #212529 !important;
+}
+}
+.container-fluid1{
+    justify-content: center;
+    text-align: center;
+}
+.carousel-inner img{
+    height: 90vh !important;
+        
+    justify-content: center;
+}
+#carouselExampleInterval{
+    margin-left: 8vh;
+    margin-right: 8vh;
+    
+}
+.Title1{
+    margin-top: 38px;
+    text-align: center;
+}
+
+.col1{
+    text-align: center;
+    font-size: 30px;
+    width:300px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.card-header{
+    background-color: chocolate;
+    color: white;
+}
+
+
+.Title2{
+    text-align: left;
+    
+    
+    justify-content: center;
+}
+
+#Poopular{
+    width: fit-content;
+}
+#imgcard1{
+    height: 26vh;
+}
+.card{
+    text-align: center  ;
+}
+
+#button1{
+    background-color:green;
+    font-weight: bold;
+    margin-right: 0;
+}
+#Popular{
+    background-color:darkred;
+    color: white;
+    height: 6vh;
+}
+.Title3{
+    line-height: 65px;
+    margin-bottom: 15px;
+}
+
+#card-popular{
+    
+    justify-content: center;
+  
+}
+
+#text4{
+    text-align: left !important;
+}
+#first-line{
+    margin-top: 0px;
+    width: auto;
+}
+#second-line{
+    margin-top: 20px;
+    margin-bottom: 0;
+}
+.social-media{
+    justify-content: center;
+
+}
+#social-media{
+    border: white;
+    border-color: white;
+}
+.lista{
+    align-items: center;
+
+}
+
+.lista li{
+    
+    border: none;
+    
+    color:rgb(210, 105, 30) ;
+}
+#imagen-popular{
+    height: auto;
+    width: auto;
+}
+
+@media (max-width:450px){
+    .carousel-inner img{
+        height: 45vh !important;
+    }
+
+}
+@media (max-width:450px){
+    #first-line{
+        margin-top: 450px;
+    }
+
+}
+@media (max-width:450px){
+    #Popular, .Title3{
+        line-height: 35px;
+    } 
+}
+@media (max-width:450px){
+    #first-line{
+        margin-top: 0px;
+    }
+}
+@media (max-width:450px){
+    #imgcard1{
+        height: 42vh;
+    }
+
+}
+@media (max-width:450px){
+    #carouselExampleInterval{
+
+        margin-left: 0% !important;
+        margin-right: 0% !important;
+        width: auto;
+        justify-content: center;
+    }
+
+}
+

@@ -1,0 +1,16 @@
+.text-form{
+    font-size: 1.4em;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 5%;
+    margin-top: 100px;
+
+}
+.form-contactanos{
+    padding: 5%;
+    margin-bottom: 50px;
+    border: 1px solid gray;
+    border-radius: 5%;
+    box-shadow: 14px 14px 0 rgb(0,0,0,0.3);
+    
+}
