@@ -21,7 +21,7 @@
 
 #tarjeta-acercade{
     height: 12vh;
-    width: 50vh;
+    width: auto;
 }
 #tarjeta-de-acerca{
     width: auto;
@@ -46,5 +46,6 @@
         margin-right: 0;
     }
 }
+
 
 
