@@ -148,4 +148,9 @@ navbar{
     }
 
 }
-
+@media (max-width:450px){
+    .lista li{
+        font-size: small;
+        text-align: center;
+    }
+}
