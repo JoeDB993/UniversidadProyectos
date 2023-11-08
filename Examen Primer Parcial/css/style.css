@@ -19,6 +19,18 @@ navbar{
     margin-right: 8vh;
     
 }
+
+.botones-menu{
+    width: 300px;
+    height: 75px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    justify-content: center;
+    background-color: rgba(210, 105, 30, 0.89);
+    color: white;
+    
+}
 .Title1{
     margin-top: 38px;
     text-align: center;
@@ -48,7 +60,9 @@ navbar{
     width: fit-content;
 }
 #imgcard1{
+    width: auto;
     height: 26vh;
+    object-fit: cover;
 }
 .card{
     text-align: center  ;
@@ -63,14 +77,14 @@ navbar{
     background-color:darkred;
     color: white;
     height: 6vh;
-}
-.Title3{
-    line-height: 65px;
-    margin-bottom: 15px;
+    align-items: center;
+    justify-items: center;
 }
 
+
+
 #card-popular{
-    
+    align-items: center;
     justify-content: center;
   
 }
@@ -109,10 +123,15 @@ navbar{
     height: auto;
     width: auto;
 }
+#div-center{
+    padding: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
 
 @media (max-width:450px){
     .carousel-inner img{
-        height: 45vh !important;
+        height: 35vh !important;
     }
 
 }
@@ -132,15 +151,9 @@ navbar{
         margin-top: 0px;
     }
 }
-@media (max-width:450px){
-    #imgcard1{
-        height: 42vh;
-    }
 
-}
 @media (max-width:450px){
     #carouselExampleInterval{
-
         margin-left: 0% !important;
         margin-right: 0% !important;
         width: auto;
