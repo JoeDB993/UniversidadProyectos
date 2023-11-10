@@ -29,12 +29,16 @@
     margin-right: 5rem;
 
 }
+#formulario-content{
+    justify-content: center;
+}
 
 
 @media (max-width:450px){
     #imagecontact{
         height: 37vh;
         width: auto;
+        justify-content: center;
     }
 }
 @media (max-width:450px){
@@ -46,6 +50,4 @@
         margin-right: 0;
     }
 }
-
-
 
