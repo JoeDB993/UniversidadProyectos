@@ -29,7 +29,16 @@ navbar{
     justify-content: center;
     background-color: rgba(210, 105, 30, 0.89);
     color: white;
+
     
+}
+.botones-menu:hover {
+    background-color: chocolate;
+    color: white;
+}
+
+#button1:hover{
+    background-color: darkgreen;
 }
 .Title1{
     margin-top: 38px;
@@ -122,6 +131,9 @@ navbar{
 #imagen-popular{
     height: auto;
     width: auto;
+    
+
+    
 }
 #div-center{
     padding: 10px;
@@ -166,4 +178,11 @@ navbar{
         font-size: small;
         text-align: center;
     }
+}
+.card{
+    border: none;
+}
+
+#menu-card{
+    box-shadow: 6px 6px 0 rgba(0, 0, 0, 0.2) ;
 }
